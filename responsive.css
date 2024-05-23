@@ -1,0 +1,38 @@
+@media screen and (max-width: 375px) {
+  nav {
+    display: none;
+  }
+  header button {
+    display: none;
+  }
+  .ham {
+    display: block;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0;
+    min-height: 100vh;
+    gap: 0;
+  }
+  .mobile {
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .mockup {
+    position: absolute;
+    /* inset: -60px 0 0 0; */
+    top: -60px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60vh;
+  }
+}

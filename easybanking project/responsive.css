@@ -1,0 +1,172 @@
+@media screen and (max-width:375px) {
+nav{
+    display: none;
+}
+header button{
+    display: none;
+}
+.ham{
+    display: block;
+}
+.mockup{
+    position: absolute;
+    top: -60px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60vh;
+
+}
+.desktop{
+    display: none;
+
+}
+.mobile{
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.hero{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 70px 0;
+    min-height: 100vh;
+    gap: 0;
+}
+
+
+.content{
+    width: 100%;
+    text-align: center;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+}    
+
+.why-us {
+    padding: 50px 0;
+    text-align: center;
+}
+.why-us p {
+    width: 100%;
+    margin-top: 1rem;
+}
+.card{
+    width: 100%;
+}
+.latest-article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 27%;
+   height: 175vh;
+}
+.article-cards {
+    display: flex;
+    flex-direction: column;
+    min-height: 10px;
+}
+.article-card img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 120px;
+}
+
+footer{
+    background-color:black;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: calc(15% - 2rem);
+    flex-direction: column;    
+}
+.all-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    width: 375px;
+}
+
+ /* .foot-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} */
+.qwik-link {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5rem;
+} 
+
+.foot-one nav{
+    padding-top: 10px; 
+
+    width: 11rem;
+}
+
+.quick-links-4 .btn{
+    text-align: center;
+    width: 12rem;
+    height: 50px;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+/* .quick-links-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* .quick-links-2 nav {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+} */
+/* .quick-links-3 {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border: 1px solid red;
+} */
+
+.quick-links-3 nav{
+
+}
+
+.quick-links-4{
+    /* margin-top: 30px;
+    margin-left:25rem;  */
+ 
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.4rem;
+    gap: 15px;
+    border: 1px solid red;
+    text-align: center;
+    width: 300px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    
+}
+
+
+
+
+
+}
